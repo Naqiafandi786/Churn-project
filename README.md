@@ -10,13 +10,14 @@ An end-to-end *Machine Learning project* that predicts whether a telecom custome
 Customer churn is a critical problem for telecom companies. This project helps identify customers likely to leave, allowing companies to take proactive retention actions.  
 
 Built with *Python, Pandas, Scikit-learn, and Streamlit*.
+**Dataset:** [Telco Customer Churn(Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
 ## 📸 Streamlit App Preview
 
 Here’s how the Churn Prediction app looks:
 
-![Churn App](app/app_screenshot.png)
+![Churn App](app/app_screenshot.jpeg)
 
 ## 🧩 Features
 - Data cleaning and preprocessing (handling missing values, encoding categorical data)
