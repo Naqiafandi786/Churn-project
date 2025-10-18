@@ -12,6 +12,11 @@ Customer churn is a critical problem for telecom companies. This project helps i
 Built with *Python, Pandas, Scikit-learn, and Streamlit*.
 
 ---
+## 📸 Streamlit App Preview
+
+Here’s how the Churn Prediction app looks:
+
+![Churn App](app/app_screenshot.png)
 
 ## 🧩 Features
 - Data cleaning and preprocessing (handling missing values, encoding categorical data)
@@ -23,15 +28,19 @@ Built with *Python, Pandas, Scikit-learn, and Streamlit*.
 ---
 
 ## 🗂 Folder Structure
-churn-project/->
-DATA/-> churn_data.csv [Raw Dataset]
-app/-> churn_app.py [Streamlit UI]
-models/-> rf_churn_model.joblib , feature_columns.joblib [Trained Random Forest Model]
-notebooks/-> CHURN_PROJECT.ipynb [EDA and model building]
-Churn_2 [Experiments/visualizations]
-train_model.py /-> [Training and saving model]
-requirements.txt [Dependencies]
-
+churn-project/
+├── app/
+│   └── churn_app.py [Streamlit UI]
+├── data/
+│   └── churn_data.csv [Raw Dataset]
+├── models/
+│   ├── rf_churn_model.joblib [Trained Random Forest Model]
+│   └── feature_columns.joblib
+├── notebooks/
+│   ├── Churn_project.ipynb [EDA and model building]
+│   └── Churn_2.ipynb [Experiments and Visualizations]
+├── train_model.py [Training and saving model]
+└── requirements.txt [Dependencies]
 ---
 
 ## 🧠 Tech Stack
@@ -55,5 +64,5 @@ requirements.txt [Dependencies]
    ```bash
    git clone https://github.com/yourusername/churn-project.git
 2. Install dependencies : pip install -r requirements.txt
-3. Run the Streamlit APP : streamlit run app/churn_app.py
-4. Enter customer details in the browser to see churn prediction and probabilty
+3. Run the Streamlit app : streamlit run app/churn_app.py
+4. Enter customer details in the browser to see churn prediction and probability
