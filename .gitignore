@@ -1,0 +1,28 @@
+# Ignore Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+churn_env/
+venv/
+.env/
+
+# VS Code settings
+.vscode/
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Optional: comment/uncomment if dataset is large
+# data/churn_data.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
