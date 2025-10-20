@@ -67,3 +67,11 @@ churn-project/
 2. Install dependencies : pip install -r requirements.txt
 3. Run the Streamlit app : streamlit run app/churn_app.py
 4. Enter customer details in the browser to see churn prediction and probability
+
+---
+
+### 🔗 Author
+*Naqi Afandi*  
+📧 alinaqiafandi@gmail.com  
+🌐 [LinkedIn](www.linkedin.com/in/naqi-afandi) | 💻 [GitHub](https://github.com/Naqiafandi786)
+
